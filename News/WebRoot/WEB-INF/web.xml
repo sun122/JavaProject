@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>findServlet</servlet-name>
+    <servlet-class>com.sf.servlet.findServlet</servlet-class>
+  </servlet>
+  
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.sf.servlet.LoginServlet</servlet-class>
+  </servlet>
+
+	<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>registerServlet</servlet-name>
+    <servlet-class>com.sf.servlet.registerServlet</servlet-class>
+  </servlet>
+<servlet>
+	<description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userServlet</servlet-name>
+    <servlet-class>com.sf.servlet.userServlet</servlet-class>
+</servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ptuserlogin</servlet-name>
+    <servlet-class>com.sf.servlet.ptuserlogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Delservlet</servlet-name>
+    <servlet-class>com.sf.servlet.Delservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CatelogServlet</servlet-name>
+    <servlet-class>com.sf.servlet.CatelogServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteCatelog</servlet-name>
+    <servlet-class>com.sf.servlet.DeleteCatelog</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>indexCatelog</servlet-name>
+    <servlet-class>com.sf.servlet.indexCatelog</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewSerlet</servlet-name>
+    <servlet-class>com.sf.servlet.NewSerlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteNews</servlet-name>
+    <servlet-class>com.sf.servlet.DeleteNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>findCatelogNameServlet</servlet-name>
+    <servlet-class>com.sf.servlet.findCatelogNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>test</servlet-name>
+    <servlet-class>com.sf.servlet.test</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>findAllNewServlet</servlet-name>
+    <servlet-class>com.sf.servlet.findAllNewServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>indexShowNews</servlet-name>
+    <servlet-class>com.sf.servlet.indexShowNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowNewSpeakServlet</servlet-name>
+    <servlet-class>com.sf.servlet.ShowNewSpeakServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelSpeakServlet</servlet-name>
+    <servlet-class>com.sf.servlet.DelSpeakServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowNewByIdServlet</servlet-name>
+    <servlet-class>com.sf.servlet.ShowNewByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowindexServlet</servlet-name>
+    <servlet-class>com.sf.servlet.ShowindexServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddImgNewServlet</servlet-name>
+    <servlet-class>com.sf.servlet.AddImgNewServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImageNewServlet</servlet-name>
+    <servlet-class>com.sf.servlet.ImageNewServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeletImageNews</servlet-name>
+    <servlet-class>com.sf.servlet.DeletImageNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateImgNews</servlet-name>
+    <servlet-class>com.sf.servlet.UpdateImgNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IndexPicShowServlet</servlet-name>
+    <servlet-class>com.sf.servlet.IndexPicShowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImageServlet</servlet-name>
+    <servlet-class>com.sf.servlet.ImageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FirstPageServlet</servlet-name>
+    <servlet-class>com.sf.servlet.FirstPageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindPicNews_pic</servlet-name>
+    <servlet-class>com.sf.servlet.FindPicNews_pic</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PingLunServlet</servlet-name>
+    <servlet-class>com.sf.servlet.PingLunServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowNewContentAndSpeakServlet</servlet-name>
+    <servlet-class>com.sf.servlet.ShowNewContentAndSpeakServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowPicNewAndSpeakServlet</servlet-name>
+    <servlet-class>com.sf.servlet.ShowPicNewAndSpeakServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>com.sf.servlet.AdminLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>regist_Servlet</servlet-name>
+    <servlet-class>index_Servlet.regist_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>index_u_regist</servlet-name>
+    <servlet-class>index_Servlet.index_u_regist</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TestServlet</servlet-name>
+    <servlet-class>index_Servlet.TestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LunBo_Servlet</servlet-name>
+    <servlet-class>index_Servlet.LunBo_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addpic_servlet</servlet-name>
+    <servlet-class>index_Servlet.addpic_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>showAllLunBoNews</servlet-name>
+    <servlet-class>index_Servlet.showAllLunBoNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>indexLunBoNews</servlet-name>
+    <servlet-class>index_Servlet.indexLunBoNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LunBoContentServlet</servlet-name>
+    <servlet-class>index_Servlet.LunBoContentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindAllnews_picnewsByCIdSevlet</servlet-name>
+    <servlet-class>index_Servlet.FindAllnews_picnewsByCIdSevlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>indexAllNewsTextServlet</servlet-name>
+    <servlet-class>index_Servlet.indexAllNewsTextServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>picnewsContent_servlet</servlet-name>
+    <servlet-class>index_Servlet.picnewsContent_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>newscommentServlet</servlet-name>
+    <servlet-class>index_Servlet.newscommentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>textnewspinglunservlet</servlet-name>
+    <servlet-class>index_Servlet.textnewspinglunservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addTextNewsPingLunServlet</servlet-name>
+    <servlet-class>index_Servlet.addTextNewsPingLunServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addPicNewspinglunservlet</servlet-name>
+    <servlet-class>index_Servlet.addPicNewspinglunservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>indexAllPicNews</servlet-name>
+    <servlet-class>index_Servlet.indexAllPicNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>indexTextNewsServlet</servlet-name>
+    <servlet-class>index_Servlet.indexTextNewsServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	  <servlet-mapping>
+    <servlet-name>userServlet</servlet-name>
+    <url-pattern>/servlet/userServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>findServlet</servlet-name>
+    <url-pattern>/servlet/findServlet</url-pattern>
+  </servlet-mapping>
+
+	<servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>registerServlet</servlet-name>
+    <url-pattern>/servlet/registerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ptuserlogin</servlet-name>
+    <url-pattern>/servlet/ptuserlogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Delservlet</servlet-name>
+    <url-pattern>/servlet/Delservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CatelogServlet</servlet-name>
+    <url-pattern>/servlet/CatelogServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteCatelog</servlet-name>
+    <url-pattern>/servlet/DeleteCatelog</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>indexCatelog</servlet-name>
+    <url-pattern>/servlet/indexCatelog</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewSerlet</servlet-name>
+    <url-pattern>/servlet/NewSerlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteNews</servlet-name>
+    <url-pattern>/servlet/DeleteNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>findCatelogNameServlet</servlet-name>
+    <url-pattern>/servlet/findCatelogNameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>test</servlet-name>
+    <url-pattern>/servlet/test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>findAllNewServlet</servlet-name>
+    <url-pattern>/servlet/findAllNewServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>indexShowNews</servlet-name>
+    <url-pattern>/servlet/indexShowNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowNewSpeakServlet</servlet-name>
+    <url-pattern>/servlet/ShowNewSpeakServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelSpeakServlet</servlet-name>
+    <url-pattern>/servlet/DelSpeakServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowNewByIdServlet</servlet-name>
+    <url-pattern>/servlet/ShowNewByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowindexServlet</servlet-name>
+    <url-pattern>/servlet/ShowindexServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddImgNewServlet</servlet-name>
+    <url-pattern>/servlet/AddImgNewServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImageNewServlet</servlet-name>
+    <url-pattern>/servlet/ImageNewServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeletImageNews</servlet-name>
+    <url-pattern>/servlet/DeletImageNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateImgNews</servlet-name>
+    <url-pattern>/servlet/UpdateImgNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IndexPicShowServlet</servlet-name>
+    <url-pattern>/servlet/IndexPicShowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImageServlet</servlet-name>
+    <url-pattern>/servlet/ImageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FirstPageServlet</servlet-name>
+    <url-pattern>/servlet/FirstPageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindPicNews_pic</servlet-name>
+    <url-pattern>/servlet/FindPicNews_pic</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PingLunServlet</servlet-name>
+    <url-pattern>/servlet/PingLunServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowNewContentAndSpeakServlet</servlet-name>
+    <url-pattern>/servlet/ShowNewContentAndSpeakServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowPicNewAndSpeakServlet</servlet-name>
+    <url-pattern>/servlet/ShowPicNewAndSpeakServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern>/servlet/AdminLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>regist_Servlet</servlet-name>
+    <url-pattern>/servlet/regist_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>index_u_regist</servlet-name>
+    <url-pattern>/servlet/index_u_regist</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TestServlet</servlet-name>
+    <url-pattern>/servlet/TestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LunBo_Servlet</servlet-name>
+    <url-pattern>/servlet/LunBo_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addpic_servlet</servlet-name>
+    <url-pattern>/servlet/addpic_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showAllLunBoNews</servlet-name>
+    <url-pattern>/servlet/showAllLunBoNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>indexLunBoNews</servlet-name>
+    <url-pattern>/servlet/indexLunBoNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LunBoContentServlet</servlet-name>
+    <url-pattern>/servlet/LunBoContentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindAllnews_picnewsByCIdSevlet</servlet-name>
+    <url-pattern>/servlet/FindAllnews_picnewsByCIdSevlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>indexAllNewsTextServlet</servlet-name>
+    <url-pattern>/servlet/indexAllNewsTextServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>picnewsContent_servlet</servlet-name>
+    <url-pattern>/servlet/picnewsContent_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>newscommentServlet</servlet-name>
+    <url-pattern>/servlet/newscommentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>textnewspinglunservlet</servlet-name>
+    <url-pattern>/servlet/textnewspinglunservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addTextNewsPingLunServlet</servlet-name>
+    <url-pattern>/servlet/addTextNewsPingLunServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addPicNewspinglunservlet</servlet-name>
+    <url-pattern>/servlet/addPicNewspinglunservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>indexAllPicNews</servlet-name>
+    <url-pattern>/servlet/indexAllPicNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>indexTextNewsServlet</servlet-name>
+    <url-pattern>/servlet/indexTextNewsServlet</url-pattern>
+  </servlet-mapping>
+	
+ 	<filter>
+		<filter-name>PageFilter</filter-name>
+		<filter-class>com.sf.filter.PageFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>PageFilter</filter-name>
+		<url-pattern>/admin/*</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+	</filter-mapping>
+	
+	<error-page>
+		<error-code>404</error-code>
+		<location>/error.jsp</location>
+	</error-page>
+</web-app>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background: rgba(145, 228, 198, 0.12);
+        }
+        div.max{
+            align-content: center;
+            width: 250px;
+            margin: 50px auto;
+        }
+        input.un,input.ps{
+            width: 200px;
+            height: 32px;
+            background: #90D9C5;
+            display: block;
+            border-radius: 3px;
+            margin-bottom: 8px;
+        }
+        input.dl,input.zc{
+            width: 90px;
+            height: 32px;
+            background:white;
+            color: black;
+            border-radius: 3px;
+            margin-bottom: 8px;
+
+        }
+        input.dl:hover,input.zc:hover{
+            background:#90D9C5;
+
+        }
+        select{
+            width: 200px;
+            height: 32px;
+            background: #90D9C5;
+            margin-bottom: 10px;
+            display: block;
+        }
+        input{
+            border: none;
+
+        }
+        input:last-child{
+            margin-left: 12px;
+        }
+        h4{
+           align-content: center;
+            color: rgba(100, 128, 126, 0.94);
+            line-height: 43px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class  = "max">
+        <h4>Welcome</h4>
+        <form action="LoginServlet" method="post" name="fm2">
+        	
+            <input type="text" name="name1" placeholder="用户名" class="un">
+            <input type="password" name="password1" placeholder="密码" class="ps">
+            <input type="password" placeholder="确认密码" class="ps">
+            <select name="select">
+                <option value="普通用户">普通用户</option>
+                <option value="管理员">管理员</option>
+            </select>
+            <input type="submit" name="typesub" value="登录" class="dl">
+            <input type="submit" name="typesub" value="注册" class="zc">
+        </form>
+    </div>
+</body>
+</html>
